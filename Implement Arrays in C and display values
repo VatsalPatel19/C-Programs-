@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+int a[10],i;
+print("FILL ARRAY BY ENTERING NUMBERS:");
+for(i=0;i<10;i++)
+{
+scanf("%d",&a[i]);
+}
+printf("\nTHE ARRAY ELEMENTS ARE:");
+for(i=0;i<10;i++)
+{
+printf("%d",a[i]);
+}
+}
+
